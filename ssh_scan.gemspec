@@ -30,7 +30,7 @@ Gem::Specification.new do |s|
   s.homepage = 'http://rubygems.org/gems/ssh_scan'
   s.metadata["yard.run"] = "yri" # use "yard" to build full HTML docs
 
-  s.add_dependency('bindata', '2.4.3')
+  s.add_dependency('bindata', '2.4.10')
   s.add_dependency('netaddr', '2.0.4')
   s.add_dependency('net-ssh', '6.0.2')
   s.add_dependency('ed25519', '1.2.4')
